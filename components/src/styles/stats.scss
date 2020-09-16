@@ -1,0 +1,26 @@
+
+.stats-wrapper {
+  margin-top: 35px;
+
+  .stats-type {
+    padding: 5px 0 5px 30px;
+
+    &.views {
+      background: url("../img/eye.svg") no-repeat left;
+    }
+
+    &.likes {
+      background: url("../img/like.svg") no-repeat left;
+    }
+
+    &.comments {
+      background: url("../img/comment.svg") no-repeat left;
+    }
+  }
+
+  &.s {
+    display: inline-block;
+    margin-top: 0;
+    width: 50%;
+  }
+}

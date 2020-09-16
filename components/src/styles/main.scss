@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@400;700&display=swap');
+
+* {
+  margin: 0;
+  box-sizing: border-box;
+  border: 0;
+}
+
+btn:focus {
+  outline: none;
+}
+
+body {
+  margin: 0;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: #EFF2F3;
+  padding: 20px;
+  font-family: 'Muli', sans-serif;
+}
+
+h1 {
+  font-size: 34px;
+  font-weight: normal;
+}
+
+h2 {
+  font-size: 30px;
+}
+
+h3 {
+  font-size: 28px;
+}
+
+p {
+  font-size: 16px;
+}
+
+.mb-10 {
+  margin-bottom: 10px;
+}
+
+.flex {
+  display: flex;
+}
+
+.inline-block {
+  display: inline-block;
+}
+
+.h-line {
+  height: 1px;
+  background-color: #CBD0E1;
+  width: 100%;
+  margin: 45px 0;
+}
+
+.btn {
+  padding: 30px 40px;
+  background-color: #FFCF54;
+  border-radius: 50px;
+  margin-top: 70px;
+  transition: background-color 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+
+  &:hover {
+    background-color: #ffb150;
+    box-shadow: 0 10px 20px -10px #FF9C54;
+  }
+
+  p {
+    margin-right: 20px;
+  }
+}
+
+.btn-img {
+  position: relative;
+  top: 3px;
+}
+
+.card {
+  max-width: 410px;
+  background-color: #ffffff;
+  padding: 45px 50px 60px;
+  box-shadow: 0 32px 20px -15px rgba(4,22,87,0.09);
+  border-radius: 20px;
+  display: block;
+  margin-left: 50%;
+  margin-top: 10vh;
+  transform: translateX(-50%);
+
+  h1 {
+    max-width: 280px;
+  }
+}
+
